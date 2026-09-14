@@ -1,7 +1,7 @@
 # Swin-Tiny Fine-Tuning with Architectural Ablation
 
 **Course:** Advanced Computer Vision (PhD) — FAST School of Computing, FAST-NUCES Islamabad
-**Assignment:** Assignment 1 — The Swin Pipeline & Architectural Ablation
+**Assignment:** The Swin Pipeline & Architectural Ablation
 **Dataset:** EuroSAT (RGB), 10 classes, 27,000 images
 **Backbone:** `swin_tiny_patch4_window7_224` (pretrained on ImageNet-1k)
 
@@ -22,7 +22,7 @@ and hypothesis outcome is documented in the accompanying IEEE report.
 
 ## 2. Results Summary
 
-| Metric | Baseline | Ablation | Δ |
+| Metric | Baseline | Ablation | Learning Rate (Δ) |
 |---|---|---|---|
 | Best Val Accuracy (top-1) | **0.9893** | 0.9869 | −0.24% |
 | Last Val Accuracy | 0.9889 | 0.9854 | −0.35% |
@@ -56,7 +56,7 @@ rescue mechanism.
 ### 4.1 Hardware
 
 - **Recommended:** NVIDIA GPU with ≥ 12 GB VRAM (T4, P100, V100, A100, RTX 30/40-series)
-- **Reproduced on:** Google Colab, Tesla T4 (15.6 GB), CUDA 12.x
+- **Reproduced on:** Kaggle, Google Colab, Tesla T4 (15.6 GB), CUDA 12.x
 - **CPU fallback:** supported but ~30× slower (≈ 40 h total)
 
 ### 4.2 Environment
@@ -65,7 +65,7 @@ Requires **Python 3.8+**, **PyTorch ≥ 2.0**, **timm ≥ 0.9**.
 
 ```bash
 # Clone
-git clone https://github.com/<your-username>/swin-eurosat-ablation.git
+git clone https://github.com/<Sheeza Naeem>/swin-eurosat-ablation.git
 cd swin-eurosat-ablation
 
 # Create env (conda recommended)
