@@ -1,0 +1,43 @@
+# ============================================================
+# ============================================================
+# Swin-Tiny Fine-Tuning + Architectural Ablation
+# Advanced Computer Vision (PhD) — Assignment 1
+# ============================================================
+# ============================================================
+
+# ---- Core DL framework ----
+# Tested: torch 2.1.x / 2.2.x, torchvision 0.16.x / 0.17.x
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ---- Model zoo ----
+# Tested: timm 0.9.16 / 1.0.x
+timm>=0.9.0
+
+# ---- Data & metrics ----
+numpy>=1.23
+scikit-learn>=1.2
+pillow>=9.0
+
+# ---- Visualization ----
+matplotlib>=3.6
+seaborn>=0.12
+
+# ---- Progress bars ----
+tqdm>=4.65
+
+# ---- Optional experiment tracking ----
+# Uncomment if you use wandb (see CONFIG['use_wandb'])
+# wandb>=0.16
+
+# ============================================================
+# Installation
+# ------------------------------------------------------------
+# GPU (CUDA 12.1):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements.txt
+#
+# CPU only:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+# ============================================================
